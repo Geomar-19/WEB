@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn config.wsgigit add Procfile
+web: gunicorn config.wsgi
